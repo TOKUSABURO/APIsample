@@ -4,7 +4,7 @@ class BlogsController < ApplicationController
     render json: @blogs
   end
 
-  ef show
+  def show
     @blogs = Blog.all
     render json: @blogs
   end
